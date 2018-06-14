@@ -60,7 +60,7 @@ window.addEventListener('load', function(e){
                     console.log(source);
                     let templateFn = Handlebars.compile(source);
                     console.log(templateFn);
-                    let template = templateFn({nameObj});
+                    let template = templateFn({nameObj});// сюда ложем название объекта из которого хотим получить значение
                     console.log(template);
                     
                    // result.innerHTML = template;
